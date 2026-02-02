@@ -8,7 +8,8 @@
 
 }
 body{
-    background-image: url(images and vids/abstract-diamond-pattern-background_579179-1387.avif);
+ background-image: url("images-and-vids/abstract-diamond-pattern-background_579179-1387.avif");
+
     color:rgb(250,250,250);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 10px;
