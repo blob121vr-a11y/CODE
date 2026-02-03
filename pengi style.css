@@ -1,0 +1,98 @@
+:Root{
+    --primary-color: #6d70f1; 
+    --secondary-color: #6036a3; 
+    --background-color: #4951c9;
+    --text-color: #3db2b6; 
+    --border-radius: 8px;
+    --shadow: 0 4px 8px -2px rgba(0, 0, 0, 0.35);
+
+}
+body{
+background-color: var(--background-color);
+
+    color:rgb(250,250,250);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+}
+ul.navagation{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--primary-color);
+}
+
+ul li .navagation  {
+  float: left;
+}
+ul li button.navagation  {
+    text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  display: block;
+  margin: 0px;
+  color: var(--text-color);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.navagation{
+        text-decoration: none;
+    transition: border-radius 0.1s;
+    padding: 14px 16px;
+color: #ffffff;
+}
+
+.mini1{
+    width: 400px;
+    height:200px;
+    border-radius: 10px;
+    border: solid 2px var(--primary-color);
+
+}
+
+.mini1:hover {
+transform: scale(1.08); 
+}
+
+button:hover{
+      text-decoration: none;
+    color:#e4572e;
+    border-radius: 2px;
+    background-color: #000000;
+}
+button { 
+    width: 100px; height: 50px;
+     text-decoration: none;
+    border: solid 2px #f5f7fa00;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:var(--primary-color-color); /* Keep the hover color */
+}
+img{
+    width:200px;
+    height: 200px;
+    animation: imgpop 1s 1;
+    border-radius: 12px;
+}
+@keyframes imgpop{
+    0%{transform: translate(0px,50px);opacity: 0; }
+    100%{transform: translate(0px,0px);opacity: 1;}
+}
+.section1{
+    background-color: var(--primary-color);
+    border-radius: 20px;
+}
+.section2{
+    background-color: #393647;
+    border-radius: 20px;
+}
+.biggie:hover{
+   animation: big 1s 1;
+}
+
+@keyframes big{
+    100% {transform: scale(150%) translatex(50px);}
+   
+}
