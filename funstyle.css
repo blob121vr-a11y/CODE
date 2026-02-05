@@ -57,20 +57,20 @@ color: #ffffff;
 transform: scale(1.08); 
 }
 
-.navagation :hover{
+button:hover{
       text-decoration: none;
     color:#e4572e;
     border-radius: 2px;
     background-color: #000000;
 }
-.navagation  { 
+button { 
     width: 100px; height: 50px;
      text-decoration: none;
     border: solid 2px #f5f7fa00;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color:var(--primary-color-color); /* Keep the hover color */
 }
-.navagation img{
+img{
     width:200px;
     height: 200px;
     animation: imgpop 1s 1;
