@@ -24,7 +24,8 @@ ul.navagation{
 ul li .navagation  {
   float: left;
 }
-ul li button.navagation  {
+
+ul li button  {
     text-decoration: none;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
@@ -35,7 +36,6 @@ ul li button.navagation  {
   padding: 14px 16px;
   text-decoration: none;
 }
-
 
 .navagation{
         text-decoration: none;
@@ -56,13 +56,13 @@ color: #ffffff;
 transform: scale(1.08); 
 }
 
-button:hover{
+.navagation button:hover{
       text-decoration: none;
     color:#e4572e;
     border-radius: 2px;
     background-color: #000000;
 }
-button { 
+.navagation button { 
     width: 100px; height: 50px;
      text-decoration: none;
     border: solid 2px #f5f7fa00;
