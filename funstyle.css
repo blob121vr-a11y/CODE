@@ -107,7 +107,19 @@ img{
     100% {transform: scale(150%) translatex(50px);}
    
 }
-.funbutton{
+.button1{
     border: 2px var(--secondary-color);
     border-radius : 5px;
+    margin: 20px;
+    padding: 20px;
+    background-color: var(--primary-color);
+    text-decoration: none;
+}
+.button1:hover{
+        border: 2px var(--primary-color);
+    border-radius : 7px;
+    margin: 22px;
+    padding: 22px;
+    background-color: var(--secondary-color)
+   
 }
