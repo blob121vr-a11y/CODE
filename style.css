@@ -14,11 +14,35 @@ body{
     margin: 10px;
 }
 ul.navagation{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: var(--primary-color);
+    list-style-type: none;
+    margin: 0;
+    padding: 0 8px;
+    overflow: hidden;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center; /* keeps items vertically aligned */
+    gap: 6px;
+}
+
+/* normalize buttons placed directly inside the nav */
+ul.navagation > button{
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* anchors using the .navagation class inside the nav */
+.navagation{
+        display: inline-flex;
+        align-items: center;
+        height: 56px; /* fixed height to prevent shifting */
+        box-sizing: border-box;
+        text-decoration: none;
+        transition: border-radius 0.1s;
+        padding: 14px 16px;
+        color: #ffffff;
+        vertical-align: middle;
 }
 
 ul li .navagation  {
