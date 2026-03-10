@@ -26,7 +26,7 @@ document.getElementById("MySubmit").onclick = function() {
     username = document.getElementById("MyUsername").value;
    console.log(username)
 
-document.getElementById("TheUsernameShower").textContent = (username)
+document.getElementById("TheUsernameShower").textContent = `${username}'s account`
 }
 
 
@@ -42,5 +42,8 @@ PEMDMOS IS IMPORTANT
 console.log() to write notes in consle
 
  WINDOW.PROMPT
+var= datatype(var);
 
+
+" " blank string in variable is false for booleans
 */
