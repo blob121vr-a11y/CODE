@@ -19,7 +19,7 @@ username = window.prompt("What do you want your name to be?");
 console.log(`their username is ${username}`);
 
 */
-
+ // video 4 cool way
 let username;
 
 document.getElementById("MySubmit").onclick = function() {
@@ -28,9 +28,18 @@ document.getElementById("MySubmit").onclick = function() {
 
 document.getElementById("TheUsernameShower").textContent = `${username}'s account`
 }
+//video 6
+/*
+const PI = 3.14159265;
+let radius
+let circumference;
+radius = window.prompt('What is the radius of a circle?')
+radius = Number(radius);
 
+circumference= 2 * pi * radius;
 
-
+console.log(circumference);
+*/
 
 
 /* notes:

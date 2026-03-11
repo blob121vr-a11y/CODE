@@ -113,3 +113,15 @@ img{
     background-color: var(--secondary-color)
    
 }
+#countinglabel{
+    text-align: center;
+    font-size: 90px;
+}
+#Labelcontainer{
+text-align:center;
+    font-size: 90px;
+}
+#TheNumberCounter{
+    text-align:center;
+
+}
