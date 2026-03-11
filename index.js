@@ -28,6 +28,36 @@ document.getElementById("MySubmit").onclick = function() {
 
 document.getElementById("TheUsernameShower").textContent = `${username}'s account`
 }
+
+//NUMBER COUNTER
+
+
+const decreaseBtn = document.getElementById("decreasebtn");
+
+const increaseBtn = document.getElementById("increasebtn");
+
+const resetBtn = document.getElementById("resetbtn");
+
+const countingLabel = document.getElementById("countinglabel");
+
+let count = 0;
+
+increaseBtn.onclick = function(){
+    count++;
+    countingLabel.textContent = count;
+}
+decreaseBtn.onclick = function(){
+    count--;
+    countingLabel.textContent = count;
+}
+resetBtn.onclick = function(){
+    count=0;
+    countingLabel.textContent = count;
+}
+
+
+
+
 //video 6
 /*
 const PI = 3.14159265;
