@@ -55,9 +55,22 @@ resetBtn.onclick = function(){
     countingLabel.textContent = count;
 }
 
+const randomLabel = document.getElementById("randomLabel");
+const randomButtoner = document.getElementById("RandomButtoner");
+const min = 1;
+const max = 20;
+let randomnum;
+
+randomButtoner.onclick = function(){
+    randomnum = Math.floor(Math.random() * max)+ min;
+    randomLabel.textContent = randomnum;
 
 
 
+
+    
+
+}
 //video 6
 /*
 const PI = 3.14159265;
@@ -82,7 +95,10 @@ console.log() to write notes in consle
 
  WINDOW.PROMPT
 var= datatype(var);
-
+MATH can show PI and E
+floor to round down ceil to round up 
+abs truns negetive to positive
+max & min mean minimun and maximum
 
 " " blank string in variable is false for booleans
 */
