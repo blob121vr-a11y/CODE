@@ -1,6 +1,6 @@
 
 let fullName = " xtoon ";
-let age = 10 ;
+let age = 100 ;
 let student = true;
 
 document.getElementById("myname").textContent = `My username in scratch is ${fullName}`;
